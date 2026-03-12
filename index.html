@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" data-lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Rainil Gutierrez | Full Stack Developer focused on Business Applications</title>
+  <meta
+    name="description"
+    content="Portfolio of Rainil Gutierrez, Full Stack Developer focused on business applications, enterprise software, SaaS platforms, dashboards and operational systems."
+  />
+  <meta
+    name="keywords"
+    content="Rainil Gutierrez, Full Stack Developer, Business Applications, Enterprise Software, SaaS, Dashboard, CMMS, Inventory System, Mendix, Portfolio"
+  />
+  <meta name="author" content="Rainil Gutierrez" />
+  <meta property="og:title" content="Rainil Gutierrez | Full Stack Developer focused on Business Applications" />
+  <meta
+    property="og:description"
+    content="Portfolio focused on enterprise software, SaaS platforms, dashboards, operational systems and digital product experiences."
+  />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="glow-orb one" aria-hidden="true"></div>
+  <div class="glow-orb two" aria-hidden="true"></div>
+  <div class="glow-orb three" aria-hidden="true"></div>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#top" class="logo" aria-label="Rainil Gutierrez home">RG</a>
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-panel"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-panel" id="nav-panel">
+        <ul class="nav-links">
+          <li><a href="#projects" data-i18n="navProjects">Projects</a></li>
+          <li><a href="#about" data-i18n="navAbout">About</a></li>
+          <li><a href="#solutions" data-i18n="navSolutions">Solutions</a></li>
+          <li><a href="#skills" data-i18n="navSkills">Skills</a></li>
+          <li><a href="#philosophy" data-i18n="navApproach">Approach</a></li>
+          <li><a href="#contact" data-i18n="navContact">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button
+            class="nav-action-btn"
+            id="lang-toggle"
+            type="button"
+            aria-label="Switch language"
+          >
+            <span data-lang-label>ES</span>
+          </button>
+
+          <button
+            class="nav-action-btn"
+            id="theme-toggle"
+            type="button"
+            aria-label="Switch theme"
+          >
+            <span class="theme-icon theme-icon--dark">🌙</span>
+            <span class="theme-icon theme-icon--light">☀️</span>
+          </button>
+
+          <a
+            class="nav-cta"
+            href="#contact"
+            data-i18n="navHireMe"
+          >
+            Hire Me
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-container">
+        <div class="hero-text">
+          <span class="section-kicker" data-i18n="heroKicker">
+            Full Stack Developer • Business Applications
+          </span>
+
+          <h1>Rainil Gutierrez</h1>
+
+          <h2 data-i18n="heroTitle">
+            Building enterprise-focused digital products with business and product thinking.
+          </h2>
+
+          <p data-i18n="heroText">
+            I build modern applications focused on enterprise software, SaaS platforms, dashboards,
+            operational systems and internal tools. My goal is to create digital products that feel
+            clear, scalable, production-ready and valuable for real organizations.
+          </p>
+
+          <div class="hero-buttons">
+            <a class="btn-primary" href="#projects" data-i18n="heroBtnProjects">
+              View Projects
+            </a>
+            <a class="btn-secondary" href="#contact" data-i18n="heroBtnContact">
+              Contact
+            </a>
+          </div>
+
+          <div class="hero-badges">
+            <span class="hero-badge" data-i18n="heroBadgeOne">Business Software</span>
+            <span class="hero-badge" data-i18n="heroBadgeTwo">Enterprise Dashboards</span>
+            <span class="hero-badge" data-i18n="heroBadgeThree">Product-Focused UI</span>
+            <span class="hero-badge" data-i18n="heroBadgeFour">Mendix / Low-Code</span>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <div class="photo-card">
+            <img src="img/rainil.png" alt="Rainil Gutierrez portrait" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="metrics">
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <span data-i18n="metricOneLabel">Projects Built</span>
+          <strong>3+</strong>
+        </div>
+
+        <div class="metric-card">
+          <span data-i18n="metricTwoLabel">Core Focus</span>
+          <strong data-i18n="metricTwoValue">Enterprise Apps</strong>
+        </div>
+
+        <div class="metric-card">
+          <span data-i18n="metricThreeLabel">Primary Stack</span>
+          <strong>HTML · CSS · JS</strong>
+        </div>
+
+        <div class="metric-card">
+          <span data-i18n="metricFourLabel">Additional Focus</span>
+          <strong data-i18n="metricFourValue">Mendix & SaaS UI</strong>
+        </div>
+      </div>
+    </section>
+
+    <section id="solutions" class="solutions">
+      <div class="solutions-container">
+        <span class="section-kicker" data-i18n="solutionsKicker">
+          Enterprise Solutions
+        </span>
+
+        <h2 class="section-title" data-i18n="solutionsTitle">
+          Software solutions for modern companies
+        </h2>
+
+        <p class="solutions-intro" data-i18n="solutionsIntro">
+          I design and build digital systems that help organizations improve operations,
+          automation and decision-making. My work focuses on practical business software,
+          scalable architecture and professional user experience.
+        </p>
+
+        <div class="solutions-grid">
+          <div class="solution-card">
+            <h3 data-i18n="solutionOneTitle">Business Web Applications</h3>
+            <p data-i18n="solutionOneText">
+              Internal tools, dashboards and operational platforms designed to improve workflows
+              and data visibility inside organizations.
+            </p>
+          </div>
+
+          <div class="solution-card">
+            <h3 data-i18n="solutionTwoTitle">SaaS Platforms</h3>
+            <p data-i18n="solutionTwoText">
+              Development of modern SaaS-style interfaces including analytics, management dashboards
+              and scalable product architecture.
+            </p>
+          </div>
+
+          <div class="solution-card">
+            <h3 data-i18n="solutionThreeTitle">Industrial Systems</h3>
+            <p data-i18n="solutionThreeText">
+              Software for maintenance management, asset tracking and operational monitoring
+              used in industrial environments.
+            </p>
+          </div>
+
+          <div class="solution-card">
+            <h3 data-i18n="solutionFourTitle">Low-Code Platforms</h3>
+            <p data-i18n="solutionFourText">
+              Experience working with enterprise platforms such as Mendix for rapid development
+              of scalable business applications.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="projects-top">
+        <div>
+          <span class="section-kicker" data-i18n="projectsKicker">Selected Work</span>
+          <h2 class="section-title" data-i18n="projectsTitle">Featured Projects</h2>
+        </div>
+
+        <p data-i18n="projectsText">
+          A selection of software products designed to feel like real enterprise tools,
+          with product structure, business logic and professional UI presentation.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card project-card--tilt">
+          <a
+            class="project-card-click"
+            href="https://raigutierrez.github.io/maintix-cmms/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Open Maintix CMMS demo"
+          ></a>
+
+          <div class="project-head">
+            <span class="project-type" data-i18n="maintixType">Industrial Software</span>
+            <span class="project-status" data-i18n="projectStatus">Live Project</span>
+          </div>
+
+          <h3>Maintix CMMS</h3>
+
+          <p data-i18n="maintixText">
+            Industrial maintenance management system designed for machine monitoring,
+            work order execution, preventive maintenance planning and plant operations visibility.
+          </p>
+
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">CMMS</span>
+          </div>
+
+          <div class="project-mock">
+            <div class="mock-topbar">
+              <span class="mock-dot"></span>
+              <span class="mock-dot"></span>
+              <span class="mock-dot"></span>
+            </div>
+            <div class="mock-body">
+              <div class="mock-line md"></div>
+              <div class="mock-grid">
+                <div class="mock-card"></div>
+                <div class="mock-card"></div>
+              </div>
+              <div class="mock-line lg"></div>
+              <div class="mock-line sm"></div>
+            </div>
+          </div>
+
+          <div class="project-actions">
+            <a
+              class="project-link primary"
+              href="https://raigutierrez.github.io/maintix-cmms/"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="viewDemo"
+            >
+              View Demo
+            </a>
+            <a
+              class="project-link secondary"
+              href="https://github.com/RaiGutierrez/maintix-cmms"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="viewCode"
+            >
+              View Code
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card project-card--tilt">
+          <a
+            class="project-card-click"
+            href="https://raigutierrez.github.io/inventory-system/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Open Inventory System demo"
+          ></a>
+
+          <div class="project-head">
+            <span class="project-type" data-i18n="inventoryType">Business Operations</span>
+            <span class="project-status" data-i18n="projectStatus">Live Project</span>
+          </div>
+
+          <h3>Inventory Management System</h3>
+
+          <p data-i18n="inventoryText">
+            Inventory platform for managing stock levels, suppliers, warehouse visibility
+            and operational control with a structure designed to resemble business software.
+          </p>
+
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Inventory</span>
+          </div>
+
+          <div class="project-mock">
+            <div class="mock-topbar">
+              <span class="mock-dot"></span>
+              <span class="mock-dot"></span>
+              <span class="mock-dot"></span>
+            </div>
+            <div class="mock-body">
+              <div class="mock-line lg"></div>
+              <div class="mock-grid">
+                <div class="mock-card"></div>
+                <div class="mock-card"></div>
+              </div>
+              <div class="mock-line md"></div>
+              <div class="mock-line sm"></div>
+            </div>
+          </div>
+
+          <div class="project-actions">
+            <a
+              class="project-link primary"
+              href="https://raigutierrez.github.io/inventory-system/"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="viewDemo"
+            >
+              View Demo
+            </a>
+            <a
+              class="project-link secondary"
+              href="https://github.com/RaiGutierrez/inventory-system"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="viewCode"
+            >
+              View Code
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card project-card--tilt">
+          <a
+            class="project-card-click"
+            href="https://raigutierrez.github.io/saas-analytics-dashboard/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Open SaaS Analytics Dashboard demo"
+          ></a>
+
+          <div class="project-head">
+            <span class="project-type" data-i18n="saasType">SaaS / Analytics</span>
+            <span class="project-status" data-i18n="projectStatus">Live Project</span>
+          </div>
+
+          <h3>SaaS Analytics Dashboard</h3>
+
+          <p data-i18n="saasText">
+            Executive-style analytics dashboard focused on performance metrics, activity tracking,
+            business monitoring and premium product presentation.
+          </p>
+
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Analytics</span>
+          </div>
+
+          <div class="project-mock">
+            <div class="mock-topbar">
+              <span class="mock-dot"></span>
+              <span class="mock-dot"></span>
+              <span class="mock-dot"></span>
+            </div>
+            <div class="mock-body">
+              <div class="mock-line md"></div>
+              <div class="mock-grid">
+                <div class="mock-card"></div>
+                <div class="mock-card"></div>
+              </div>
+              <div class="mock-line lg"></div>
+              <div class="mock-line md"></div>
+            </div>
+          </div>
+
+          <div class="project-actions">
+            <a
+              class="project-link primary"
+              href="https://raigutierrez.github.io/saas-analytics-dashboard/"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="viewDemo"
+            >
+              View Demo
+            </a>
+            <a
+              class="project-link secondary"
+              href="https://github.com/RaiGutierrez/saas-analytics-dashboard"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="viewCode"
+            >
+              View Code
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="architecture">
+      <div class="architecture-container">
+        <div class="architecture-copy">
+          <span class="section-kicker" data-i18n="architectureKicker">Engineering Focus</span>
+          <h2 class="section-title" data-i18n="architectureTitle">
+            A product and engineering mindset for real business software
+          </h2>
+          <p data-i18n="architectureText">
+            My work is not centered on isolated visuals alone. I approach projects with
+            product thinking, architecture awareness, business logic clarity and long-term
+            maintainability in mind, aiming to create software that can evolve like a real product.
+          </p>
+        </div>
+
+        <div class="architecture-grid">
+          <div class="architecture-card">
+            <h3 data-i18n="architectureOneTitle">Scalable UI Systems</h3>
+            <p data-i18n="architectureOneText">
+              Interfaces designed with consistency, hierarchy and reuse in mind.
+            </p>
+          </div>
+
+          <div class="architecture-card">
+            <h3 data-i18n="architectureTwoTitle">Business Logic Thinking</h3>
+            <p data-i18n="architectureTwoText">
+              Software structure focused on operational clarity and practical workflows.
+            </p>
+          </div>
+
+          <div class="architecture-card">
+            <h3 data-i18n="architectureThreeTitle">Product-Oriented UX</h3>
+            <p data-i18n="architectureThreeText">
+              Clear, useful and polished digital experiences for real usage scenarios.
+            </p>
+          </div>
+
+          <div class="architecture-card">
+            <h3 data-i18n="architectureFourTitle">Enterprise Readiness</h3>
+            <p data-i18n="architectureFourText">
+              Systems and interfaces designed to look credible in professional environments.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about-grid">
+        <div class="about-card">
+          <span class="section-kicker" data-i18n="aboutKicker">About Me</span>
+          <h2 class="section-title" data-i18n="aboutTitle">
+            I design and build software with a product mindset.
+          </h2>
+
+          <p class="about-text" data-i18n="aboutText">
+            I am a Full Stack Developer focused on creating applications that look and feel like
+            real production software. I enjoy combining interface design, business logic and
+            product structure to build digital experiences that are useful, clear and professional.
+          </p>
+
+          <div class="about-points">
+            <div class="about-point">
+              <strong data-i18n="aboutPointOneTitle">Business-oriented software</strong>
+              <span data-i18n="aboutPointOneText">
+                I enjoy building dashboards, operational systems and management tools with a real enterprise feel.
+              </span>
+            </div>
+
+            <div class="about-point">
+              <strong data-i18n="aboutPointTwoTitle">Clean product presentation</strong>
+              <span data-i18n="aboutPointTwoText">
+                I focus on visual clarity, interface quality and interactions that make software feel polished.
+              </span>
+            </div>
+
+            <div class="about-point">
+              <strong data-i18n="aboutPointThreeTitle">Scalable thinking</strong>
+              <span data-i18n="aboutPointThreeText">
+                I approach projects as products, thinking about structure, future growth and maintainability.
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="philosophy-card">
+          <span class="section-kicker" data-i18n="buildKicker">What I Build</span>
+          <h2 class="section-title" data-i18n="buildTitle">
+            Software that feels useful, modern and real.
+          </h2>
+
+          <p data-i18n="buildTextOne">
+            My portfolio is centered on software categories that companies actually use:
+            maintenance systems, inventory tools, SaaS dashboards and internal business platforms.
+          </p>
+          <br />
+          <p data-i18n="buildTextTwo">
+            I aim to create projects that communicate more than coding ability. They should
+            demonstrate product thinking, interface design, structure and the ability to turn
+            ideas into software experiences with real professional value.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="skills-wrap">
+        <span class="section-kicker" data-i18n="skillsKicker">Capabilities</span>
+        <h2 class="section-title" data-i18n="skillsTitle">Skills & Focus Areas</h2>
+
+        <div class="skills-grid">
+          <div class="skill">
+            <div class="skill-block">
+              <div class="skill-row">
+                <span class="skill-name">HTML</span>
+                <span class="skill-level" data-i18n="levelAdvanced">Advanced</span>
+              </div>
+              <div class="skill-bar"><span style="width: 92%;"></span></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-block">
+              <div class="skill-row">
+                <span class="skill-name">CSS</span>
+                <span class="skill-level" data-i18n="levelAdvanced">Advanced</span>
+              </div>
+              <div class="skill-bar"><span style="width: 90%;"></span></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-block">
+              <div class="skill-row">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-level" data-i18n="levelAdvanced">Advanced</span>
+              </div>
+              <div class="skill-bar"><span style="width: 86%;"></span></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-block">
+              <div class="skill-row">
+                <span class="skill-name">UI Design</span>
+                <span class="skill-level" data-i18n="levelStrong">Strong</span>
+              </div>
+              <div class="skill-bar"><span style="width: 84%;"></span></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-block">
+              <div class="skill-row">
+                <span class="skill-name" data-i18n="productThinking">Product Thinking</span>
+                <span class="skill-level" data-i18n="levelStrong">Strong</span>
+              </div>
+              <div class="skill-bar"><span style="width: 82%;"></span></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-block">
+              <div class="skill-row">
+                <span class="skill-name" data-i18n="businessApps">Business Web Apps</span>
+                <span class="skill-level" data-i18n="levelCore">Core Focus</span>
+              </div>
+              <div class="skill-bar"><span style="width: 88%;"></span></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-block">
+              <div class="skill-row">
+                <span class="skill-name">Mendix</span>
+                <span class="skill-level" data-i18n="levelStrong">Strong</span>
+              </div>
+              <div class="skill-bar"><span style="width: 78%;"></span></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-block">
+              <div class="skill-row">
+                <span class="skill-name" data-i18n="enterpriseDashboards">Enterprise Dashboards</span>
+                <span class="skill-level" data-i18n="levelStrong">Strong</span>
+              </div>
+              <div class="skill-bar"><span style="width: 84%;"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="philosophy" class="philosophy">
+      <div class="philosophy-grid">
+        <article class="philosophy-card">
+          <h3 data-i18n="philosophyOneTitle">Real Product Feel</h3>
+          <p data-i18n="philosophyOneText">
+            I build interfaces that aim to feel like actual software products, not just exercises
+            or static templates.
+          </p>
+        </article>
+
+        <article class="philosophy-card">
+          <h3 data-i18n="philosophyTwoTitle">Clean Structure</h3>
+          <p data-i18n="philosophyTwoText">
+            I care about readable code, organized components and building projects with a structure
+            that can evolve.
+          </p>
+        </article>
+
+        <article class="philosophy-card">
+          <h3 data-i18n="philosophyThreeTitle">User Clarity</h3>
+          <p data-i18n="philosophyThreeText">
+            Good software should be easy to understand visually. I focus on hierarchy, spacing,
+            interactions and usability.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="services-container">
+        <span class="section-kicker" data-i18n="servicesKicker">
+          Services
+        </span>
+
+        <h2 class="section-title" data-i18n="servicesTitle">
+          What I can build for companies
+        </h2>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <h3 data-i18n="serviceOneTitle">Custom Web Applications</h3>
+            <p data-i18n="serviceOneText">
+              Development of tailored web applications for internal management, dashboards and operational platforms.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <h3 data-i18n="serviceTwoTitle">SaaS Interfaces</h3>
+            <p data-i18n="serviceTwoText">
+              Creation of modern SaaS-style interfaces focused on usability, performance and scalable product design.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <h3 data-i18n="serviceThreeTitle">Enterprise Dashboards</h3>
+            <p data-i18n="serviceThreeText">
+              Analytics dashboards and monitoring tools for business intelligence and operational visibility.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <h3 data-i18n="serviceFourTitle">Low-Code Solutions</h3>
+            <p data-i18n="serviceFourText">
+              Development using platforms like Mendix to accelerate enterprise application delivery.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work-process">
+      <div class="work-process-container">
+        <span class="section-kicker" data-i18n="processKicker">Work Process</span>
+        <h2 class="section-title" data-i18n="processTitle">
+          How I approach software projects
+        </h2>
+
+        <div class="work-process-grid">
+          <div class="process-step">
+            <span class="process-step-number">01</span>
+            <h3 data-i18n="processOneTitle">Discovery</h3>
+            <p data-i18n="processOneText">
+              Understanding business needs, workflows and software goals before building.
+            </p>
+          </div>
+
+          <div class="process-step">
+            <span class="process-step-number">02</span>
+            <h3 data-i18n="processTwoTitle">Structure</h3>
+            <p data-i18n="processTwoText">
+              Defining layout, flows, components and product logic for a scalable foundation.
+            </p>
+          </div>
+
+          <div class="process-step">
+            <span class="process-step-number">03</span>
+            <h3 data-i18n="processThreeTitle">Build</h3>
+            <p data-i18n="processThreeText">
+              Developing interfaces and logic with clarity, maintainability and product quality in mind.
+            </p>
+          </div>
+
+          <div class="process-step">
+            <span class="process-step-number">04</span>
+            <h3 data-i18n="processFourTitle">Refine</h3>
+            <p data-i18n="processFourText">
+              Improving usability, polish and overall presentation so the result feels production-ready.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="contact-card">
+        <div class="contact-header">
+          <span class="section-kicker" data-i18n="contactKicker">Let’s Connect</span>
+
+          <h2 class="section-title" data-i18n="contactTitle">
+            Interested in working together or discussing a project?
+          </h2>
+
+          <p data-i18n="contactText">
+            I focus on modern business applications, dashboards, internal systems and product-quality software experiences.
+            If you want to collaborate, hire me or connect professionally, send me a message through the form.
+          </p>
+        </div>
+
+        <div class="contact-layout">
+          <div class="contact-info-panel">
+            <div class="contact-info-card">
+              <span class="contact-info-label" data-i18n="contactPanelAvailabilityLabel">Availability</span>
+              <span class="contact-info-value" data-i18n="contactPanelAvailabilityValue">
+                Open to freelance, collaborations and business software projects
+              </span>
+            </div>
+
+            <div class="contact-info-card">
+              <span class="contact-info-label">LinkedIn</span>
+              <a
+                class="contact-info-value"
+                href="https://www.linkedin.com/in/rainil-gutierrez-aa73b73b5/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span data-i18n="contactLinkedInCta">View professional profile</span>
+              </a>
+            </div>
+
+            <div class="contact-info-card">
+              <span class="contact-info-label">GitHub</span>
+              <a
+                class="contact-info-value"
+                href="https://github.com/RaiGutierrez"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                github.com/RaiGutierrez
+              </a>
+            </div>
+
+            <div class="contact-mini-note" data-i18n="contactMiniNote">
+              Best for enterprise software, dashboards, internal tools and custom web solutions.
+            </div>
+          </div>
+
+          <form
+            class="contact-form"
+            id="contact-form"
+            action="https://formspree.io/f/xeergdgd"
+            method="POST"
+          >
+            <input type="hidden" name="_subject" value="New portfolio inquiry from RainilGutierrez.dev" />
+            <input type="hidden" name="_captcha" value="true" />
+            <input type="hidden" name="_template" value="table" />
+
+            <input
+              type="text"
+              name="_gotcha"
+              tabindex="-1"
+              autocomplete="off"
+              class="form-honeypot"
+              aria-hidden="true"
+            />
+
+            <div class="contact-form-grid">
+              <div class="form-group">
+                <label for="name" data-i18n="formNameLabel">Full Name</label>
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  placeholder="John Carter"
+                  autocomplete="name"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email" data-i18n="formEmailLabel">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="john@company.com"
+                  autocomplete="email"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="company" data-i18n="formCompanyLabel">Company</label>
+                <input
+                  id="company"
+                  name="company"
+                  type="text"
+                  placeholder="Your company"
+                  autocomplete="organization"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="projectType" data-i18n="formProjectTypeLabel">Project Type</label>
+                <select id="projectType" name="project_type" required>
+                  <option value="" data-i18n="formProjectTypePlaceholder">Select an option</option>
+                  <option value="web-app" data-i18n="formOptionWebApp">Business Web Application</option>
+                  <option value="saas-dashboard" data-i18n="formOptionSaas">SaaS Dashboard</option>
+                  <option value="enterprise-system" data-i18n="formOptionEnterprise">Enterprise System</option>
+                  <option value="mendix" data-i18n="formOptionMendix">Mendix / Low-Code Solution</option>
+                  <option value="website" data-i18n="formOptionWebsite">Website / Landing Page</option>
+                  <option value="other" data-i18n="formOptionOther">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="budget" data-i18n="formBudgetLabel">Budget Range</label>
+                <select id="budget" name="budget">
+                  <option value="" data-i18n="formBudgetPlaceholder">Select a range</option>
+                  <option value="small" data-i18n="formBudgetSmall">Under $500</option>
+                  <option value="medium" data-i18n="formBudgetMedium">$500 – $1,500</option>
+                  <option value="large" data-i18n="formBudgetLarge">$1,500 – $5,000</option>
+                  <option value="enterprise" data-i18n="formBudgetEnterprise">$5,000+</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="timeline" data-i18n="formTimelineLabel">Timeline</label>
+                <input
+                  id="timeline"
+                  name="timeline"
+                  type="text"
+                  placeholder="2 to 4 weeks"
+                />
+              </div>
+            </div>
+
+            <div class="form-group form-group-full">
+              <label for="message" data-i18n="formMessageLabel">Project Details</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                placeholder="Tell me about your project, goals and requirements..."
+                required
+              ></textarea>
+            </div>
+
+            <div class="contact-form-actions">
+              <button type="submit" class="btn-primary" data-i18n="formSubmit">
+                Send Inquiry
+              </button>
+
+              <span class="contact-form-note" data-i18n="contactFormPrivacy">
+                Your message is sent privately through the form.
+              </span>
+            </div>
+
+            <p class="form-status" id="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <div class="contact-actions">
+          <a
+            class="contact-link"
+            href="https://www.linkedin.com/in/rainil-gutierrez-aa73b73b5/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+          <a
+            class="contact-link"
+            href="https://github.com/RaiGutierrez"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p data-i18n="footerText">
+      © 2026 Rainil Gutierrez — Full Stack Developer focused on Business Applications
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
